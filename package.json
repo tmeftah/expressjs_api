@@ -1,0 +1,24 @@
+{
+  "name": "expressjs_beginner",
+  "version": "1.0.0",
+  "description": "first project with expressjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon --inspect=5001 --config nodemon.js src/server.js",
+    "staging": "NODE_ENV=staging  nodemon --inspect=5001 --config nodemon.js src/server.js",
+    "production": "NODE_ENV=production  nodemon --inspect=5001 --config nodemon.js src/server.js"
+  },
+  "author": "tmeftah",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.4"
+  }
+}

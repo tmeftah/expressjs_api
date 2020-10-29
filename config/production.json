@@ -1,0 +1,22 @@
+{
+    "production": {
+        "port": 4300,
+        "mode": "production",
+        "protocol": "http",
+        "serverUrl": "",
+        "serverUrlWebUrlLink": "",
+        "database": {
+            "multipleStatements": true,
+            "host": "",
+            "user": "",
+            "password": "",
+            "database": ""
+        },
+        "email": {
+            "host": "",
+            "port": "",
+            "username": "",
+            "password": ""
+        }
+    }
+}
